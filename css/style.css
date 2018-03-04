@@ -53,10 +53,11 @@ body {
 .icon_upper{
     width: 60px;
     height: 35px;
+    margin: 0 auto;
 }
 
-.icon_upper:hover{
-    background-position: 14px -37px;
+.icon_upper:hover, .nav-link:hover .icon_upper{
+    background-position: center -37px;
 
 
 }
@@ -74,7 +75,40 @@ body {
 }
 
 
+.nav-link{
+    text-align: center;
+    font-weight: bold;
+}
+.nav-link:hover span{
+    color: #c34e44;
+}
 
 .banner{
     height: 300px;
+}
+
+.nav_odn{
+    background: url("../images/nav_odnoostnye.png") top center no-repeat;
+}
+.nav_dv{
+    background: url("../images/nav_dvuosnye.png") top center no-repeat;
+}
+.nav_spec{
+    background: url("../images/nav_spec.png") top center no-repeat;
+}
+.nav_gal{
+    background: url("../images/nav_galerry.png") top center no-repeat;
+}
+.nav_ocomp{
+    background: url("../images/nav_ocomp.png") top center no-repeat;
+}
+.nav_contacts{
+    background: url("../images/nav_contacts.png") top center no-repeat;
+}
+
+.navbar-collapse ul li{
+
+}
+.navbar-collapse ul li a{
+   color: #333;
 }
