@@ -29,9 +29,12 @@ body {
     background: url("../images/main_head_bg.png")  top center no-repeat;
 }
 .header{
-    height: 150px;
+    /*height: 150px;*/
     background: rgba(255,255,255,0.85);
     padding: 10px;
+}
+.logo{
+    text-align: center;
 }
 .pt-20{
     padding-top: 20px;
@@ -46,10 +49,17 @@ body {
 }
 .head-info a{
    text-decoration: none;
+    color: #333;
 }
 .head-text-info{
     /*margin-right: 40px;*/
+    display: flex;
 }
+.text_head{
+    justify-content: space-between;
+    display: flex;
+}
+
 .icon_upper{
     width: 60px;
     height: 35px;
@@ -111,4 +121,60 @@ body {
 }
 .navbar-collapse ul li a{
    color: #333;
+}
+.navbar-nav{
+    justify-content: space-between;
+    width: 100%;
+}
+.navbar{
+    padding: 0.5rem 0;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: #333;
+    text-transform: uppercase;
+}
+@media screen and (max-width: 1200px){
+    .navbar-nav .nav-link span{
+        font-size: 14px;
+    }
+
+}
+@media screen and (max-width: 992px){
+    .nav-link .icon_upper{
+        display: none;
+    }
+    .icon_upper {
+        width: 40px;
+    }
+    .head-text-info{
+        font-size: 14px;
+    }
+
+}
+@media screen and (max-width: 768px){
+    .social_head{
+        display: none;
+    }
+    .head-text-info {
+        font-size: 20px;
+    }
+    .text_head{
+        line-height: 40px;
+    }
+    .navbar-toggler{
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width: 500px){
+    .head-text-info{
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+    .text_head{
+        display: block;
+    }
+    .head-info{
+        height: auto;
+    }
 }
