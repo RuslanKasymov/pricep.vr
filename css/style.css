@@ -6,6 +6,75 @@
 html,
 body {
     height: 100%;
-    font-family: Roboto;
     color: #333333;
+}
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.content {
+    flex: 1 0 auto;
+}
+.footer {
+    flex: 0 0 auto;
+}
+.animaite{
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+.main_head_bg{
+    background: url("../images/main_head_bg.png")  top center no-repeat;
+}
+.header{
+    height: 150px;
+    background: rgba(255,255,255,0.85);
+    padding: 10px;
+}
+.pt-20{
+    padding-top: 20px;
+}
+.header img{
+    max-width: 100%;
+}
+.head-info{
+    width: 100%;
+    height: 44px;
+    border-bottom: 3px solid #999999;
+}
+.head-info a{
+   text-decoration: none;
+}
+.head-text-info{
+    /*margin-right: 40px;*/
+}
+.icon_upper{
+    width: 60px;
+    height: 35px;
+}
+
+.icon_upper:hover{
+    background-position: 14px -37px;
+
+
+}
+.head_fb{
+    background: url("../images/head_fb.png")  top center no-repeat;
+}
+.head_vk{
+    background: url("../images/head_vk.png") top center no-repeat;
+}
+.head_ok{
+    background: url("../images/head_ok.png") top center no-repeat;
+}
+.social_head div{
+    display: inline-block;
+}
+
+
+
+.banner{
+    height: 300px;
 }
