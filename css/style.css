@@ -133,6 +133,26 @@ body {
     color: #333;
     text-transform: uppercase;
 }
+.banner{
+    color: white;
+    font-weight: bold;
+    font-size: 48px;
+    padding: 50px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (max-width: 1200px){
     .navbar-nav .nav-link span{
         font-size: 14px;
