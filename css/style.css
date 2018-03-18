@@ -239,7 +239,42 @@ body {
 }
 .footer_bg{
     background: url("../images/main_footer_bg.png") top center no-repeat;
+    padding: 2rem 0;
+}
+.footer_nav{
+    padding: 2rem 0;
+}
+.footer_nav_item{
+    margin-right: 3rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    display: inline;
 
+}
+.footer_nav_item a, .footer_nav_item a:hover, .contacts a, .contacts a:hover, .footer_nav_cl a, .footer_nav_cl a:hover{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.contacts, .feedback, .footer_nav_cl{
+    color: white;
+    font-weight: bold;
+    font-size: 0.95rem;
+}
+.feed_text{
+    margin-bottom: 2rem;
+}
+.feedback button{
+    height: 45px;
+    width: 100%;
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+    border-radius: 50px;
+}
+.feedback button:hover{
+    background: white;
+    color: #333;
 }
 
 
