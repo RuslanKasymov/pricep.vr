@@ -205,9 +205,42 @@ body {
 .m-b_50{
     margin-bottom: 50px;
 }
+.banner_main_bg {
+    background: url("../images/main_banner.png") top center no-repeat;
+}
+.banner_main{
+    height: 542px;
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+    font-size: 3rem ;
+    margin-top: 160px;
+    font-weight: bold;
 
+}
+.title_kupit{
+    text-align: right;
+}
+.title_kupit img{
+    display: inline;
+}
+.c-red{
+    color: #c34e44;
+}
+.m-t_-50{
+    margin-top: -100px;
+}
 
+.prich_text{
+    text-align: center;
+    color: #c34e44;
+    font-size: 36px;
+    font-weight: bold;
+}
+.footer_bg{
+    background: url("../images/main_footer_bg.png") top center no-repeat;
 
+}
 
 
 
